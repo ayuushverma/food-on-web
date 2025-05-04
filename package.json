@@ -8,19 +8,13 @@
     "test": "jest",
     "watch-test": "jest --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ayuushvema"
-  },
+
   "keywords": [
     "namaste-react"
   ],
   "author": "Ayush Verma",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ayuushverma/food-on-web"
-  },
-  "homepage": "https://github.com/ayuushvema/food-on-web",
+  
   "devDependencies": {
     "@babel/core": "^7.24.7",
     "@babel/preset-env": "^7.24.7",

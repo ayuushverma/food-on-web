@@ -1,4 +1,4 @@
-import RestaurantCard, {withPromotedLabel} from "./RestaurantCard";
+import RestaurantCard from "./RestaurantCard";
 import { useEffect, useState , useContext} from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";

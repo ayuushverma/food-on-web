@@ -13,7 +13,6 @@ const Body = () => {
   const [filteredRestaurant, setFilteredRestaurant] = useState([]);
   const [searchText, setSearchText] = useState("");
 
-  const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
 
   console.log("body rendering", listOfRestaurant);
   useEffect(() => {
@@ -29,7 +28,6 @@ const Body = () => {
       json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
     setlistOfRestaurant(
-      // optional chaining:-
       json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants
     );
     setFilteredRestaurant(
